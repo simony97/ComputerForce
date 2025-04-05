@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Computer Force</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Products we sell</h1>
+        <p>Computer Force sells products in the following categories:</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="computers">
+            <h2>Computers</h2>
+            <img src="images/computer.jpg" alt="Computers">
+        </section>
+        <section id="laptops">
+            <h2>Laptops</h2>
+            <img src="images/laptop.jpg" alt="Laptops">
+        </section>
+        <section id="monitors">
+            <h2>Monitors</h2>
+            <img src="images/monitor.jpg" alt="Monitors">
+        </section>
+        <section id="printing">
+            <h2>Printing & Scanning</h2>
+            <img src="images/printer.jpg" alt="Printing & Scanning">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Computer Force. All rights reserved.</p>
+    </footer>
+</body>
+</html>
