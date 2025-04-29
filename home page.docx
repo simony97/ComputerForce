@@ -4,55 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Computer Force</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Computer Force</h1>
-        <p>Computer Force is your online expert in all things computing.</p>
+        <img src="logo.png" alt="Computer Force Logo">
     </header>
-
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="products.html">Products</a> |
+            <a href="register.html">Register</a> |
+            <a href="about.html">About</a>
+        </div>
+        <div>
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
     </nav>
-
+    <aside>
+        <h2>Purchases</h2>
+        <table>
+            <tr><td>0 items.</td><td>Cart sub-total: $0.</td></tr>
+            <tr><td colspan="2"><button>Go to Checkout</button></td></tr>
+        </table>
+    </aside>
     <main>
-        <section>
-            <h2>Our Products</h2>
-            <div class="product">
-                <h2>Computers</h2>
-                <a href="products.html#computers"><img src="images/computer.jpg" alt="Computers"></a>
-            </div>
-            <div class="product">
-                <h2>Laptops</h2>
-                <a href="products.html#laptops"><img src="images/laptop.jpg" alt="Laptops"></a>
-            </div>
-            <div class="product">
-                <h2>Monitors</h2>
-                <a href="products.html#monitors"><img src="images/monitor.jpg" alt="Monitors"></a>
-            </div>
-            <div class="product">
-                <h2>Printing & Scanning</h2>
-                <a href="products.html#printing"><img src="images/printer.jpg" alt="Printing & Scanning"></a>
-            </div>
-            <div class="product">
-                <h2>Software</h2>
-                <a href="products.html#software"><img src="images/software.jpg" alt="Software"></a>
-            </div>
-            <div class="product">
-                <h2>Tablets</h2>
-                <a href="products.html#tablets"><img src="images/tablet.jpg" alt="Tablets"></a>
-            </div>
-        </section>
+        <h1>Welcome to Computer Force</h1>
+        <p>Your one-stop destination for all computing needs.</p>
     </main>
-
     <footer>
-        <p>© 2025 Computer Force. All rights reserved.</p>
+        <p>&copy; 2025 Computer Force</p>
     </footer>
 </body>
 </html>
