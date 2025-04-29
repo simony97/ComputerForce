@@ -4,44 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Products - Computer Force</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Products we sell</h1>
-        <p>Computer Force sells products in the following categories:</p>
+        <img src="logo.png" alt="Computer Force Logo">
     </header>
-
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="products.html">Products</a> |
+            <a href="register.html">Register</a> |
+            <a href="about.html">About</a>
+        </div>
+        <div>
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
     </nav>
-
+    <aside>
+        <h2>Purchases</h2>
+        <table>
+            <tr><td>0 items.</td><td>Cart sub-total: $0.</td></tr>
+            <tr><td colspan="2"><button>Go to Checkout</button></td></tr>
+        </table>
+    </aside>
     <main>
-        <section id="computers">
-            <h2>Computers</h2>
-            <img src="images/computer.jpg" alt="Computers">
-        </section>
-        <section id="laptops">
-            <h2>Laptops</h2>
-            <img src="images/laptop.jpg" alt="Laptops">
-        </section>
-        <section id="monitors">
-            <h2>Monitors</h2>
-            <img src="images/monitor.jpg" alt="Monitors">
-        </section>
-        <section id="printing">
-            <h2>Printing & Scanning</h2>
-            <img src="images/printer.jpg" alt="Printing & Scanning">
-        </section>
+        <h1>Our Products</h1>
+        <p>We sell the following categories:</p>
+        <ul>
+            <li><h2>Audio</h2><img src="audio.jpg" alt="Audio"></li>
+            <li><h2>Computers</h2><img src="computers.jpg" alt="Computers"></li>
+            <li><h2>Graphics Cards</h2><img src="graphics.jpg" alt="Graphics Cards"></li>
+            <li><h2>Keyboards and Mice</h2><img src="keyboard_mouse.jpg" alt="Keyboards and Mice"></li>
+            <li><h2>Laptops</h2><img src="laptops.jpg" alt="Laptops"></li>
+            <li><h2>Monitors</h2><img src="monitors.jpg" alt="Monitors"></li>
+            <li><h2>Networking</h2><img src="networking.jpg" alt="Networking"></li>
+            <li><h2>Peripherals</h2><img src="peripherals.jpg" alt="Peripherals"></li>
+            <li><h2>Printing & Scanning</h2><img src="printing.jpg" alt="Printing & Scanning"></li>
+            <li><h2>Software</h2><img src="software.jpg" alt="Software"></li>
+            <li><h2>Storage</h2><img src="storage.jpg" alt="Storage"></li>
+            <li><h2>Tablets</h2><img src="tablets.jpg" alt="Tablets"></li>
+        </ul>
     </main>
-
     <footer>
-        <p>© 2025 Computer Force. All rights reserved.</p>
+        <p>&copy; 2025 Computer Force</p>
     </footer>
 </body>
 </html>
