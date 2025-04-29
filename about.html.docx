@@ -4,12 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About - Computer Force</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>About Computer Force</h1>
-        <p>Computer Force is a start-up company providing first-class service...</p>
+        <img src="logo.png" alt="Computer Force Logo">
     </header>
+    <nav>
+        <div>
+            <a href="index.html">Home</a> |
+            <a href="products.html">Products</a> |
+            <a href="register.html">Register</a> |
+            <a href="about.html">About</a>
+        </div>
+        <div>
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </nav>
+    <aside>
+        <h2>Purchases</h2>
+        <table>
+            <tr><td>0 items.</td><td>Cart sub-total: $0.</td></tr>
+            <tr><td colspan="2"><button>Go to Checkout</button></td></tr>
+        </table>
+    </aside>
+    <main>
+        <h1>About Us</h1>
+        <p>Providing top-notch computing solutions since 2025.</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Computer Force</p>
+    </footer>
 </body>
 </html>
