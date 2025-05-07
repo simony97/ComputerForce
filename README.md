@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Computer Force</title>
     <link rel="stylesheet" href="style.css">
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}  
 </head>
 <body>
     <header>
