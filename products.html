@@ -1,54 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products - Computer Force</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <img src="logo.png" alt="Computer Force Logo">
-    </header>
-    <nav>
-        <div>
-            <a href="index.html">Home</a> |
-            <a href="products.html">Products</a> |
-            <a href="register.html">Register</a> |
-            <a href="about.html">About</a>
-        </div>
-        <div>
-            <input type="text" placeholder="Search...">
-            <button>Search</button>
-        </div>
-    </nav>
-    <aside>
-        <h2>Purchases</h2>
-        <table>
-            <tr><td>0 items.</td><td>Cart sub-total: $0.</td></tr>
-            <tr><td colspan="2"><button>Go to Checkout</button></td></tr>
-        </table>
-    </aside>
-    <main>
-        <h1>Our Products</h1>
-        <p>We sell the following categories:</p>
+<nav>
         <ul>
-            <li><h2>Audio</h2><img src="audio.jpg" alt="Audio"></li>
-            <li><h2>Computers</h2><img src="computers.jpg" alt="Computers"></li>
-            <li><h2>Graphics Cards</h2><img src="graphics.jpg" alt="Graphics Cards"></li>
-            <li><h2>Keyboards and Mice</h2><img src="keyboard_mouse.jpg" alt="Keyboards and Mice"></li>
-            <li><h2>Laptops</h2><img src="laptops.jpg" alt="Laptops"></li>
-            <li><h2>Monitors</h2><img src="monitors.jpg" alt="Monitors"></li>
-            <li><h2>Networking</h2><img src="networking.jpg" alt="Networking"></li>
-            <li><h2>Peripherals</h2><img src="peripherals.jpg" alt="Peripherals"></li>
-            <li><h2>Printing & Scanning</h2><img src="printing.jpg" alt="Printing & Scanning"></li>
-            <li><h2>Software</h2><img src="software.jpg" alt="Software"></li>
-            <li><h2>Storage</h2><img src="storage.jpg" alt="Storage"></li>
-            <li><h2>Tablets</h2><img src="tablets.jpg" alt="Tablets"></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="register.html">Register</a></li>
+            <li><a href="about.html">About</a></li>
         </ul>
+    </nav>
+
+    <main>
+        <section class="product-grid">
+            <div class="product-item"><img src="images/computer.jpg" alt="Computers"><h3>Computers</h3></div>
+            <div class="product-item"><img src="images/laptop.jpg" alt="Laptops"><h3>Laptops</h3></div>
+            <div class="product-item"><img src="images/monitor.jpg" alt="Monitors"><h3>Monitors</h3></div>
+            <div class="product-item"><img src="images/printer.jpg" alt="Printers"><h3>Printers</h3></div>
+            <div class="product-item"><img src="images/software.jpg" alt="Software"><h3>Software</h3></div>
+            <div class="product-item"><img src="images/tablet.jpg" alt="Tablets"><h3>Tablets</h3></div>
+            <div class="product-item"><img src="images/accessories.jpg" alt="Accessories"><h3>Accessories</h3></div>
+            <div class="product-item"><img src="images/router.jpg" alt="Routers"><h3>Routers</h3></div>
+            <div class="product-item"><img src="images/headphones.jpg" alt="Headphones"><h3>Headphones</h3></div>
+            <div class="product-item"><img src="images/speakers.jpg" alt="Speakers"><h3>Speakers</h3></div>
+            <div class="product-item"><img src="images/keyboard.jpg" alt="Keyboards"><h3>Keyboards</h3></div>
+            <div class="product-item"><img src="images/mouse.jpg" alt="Mouse"><h3>Mouse</h3></div>
+        </section>
     </main>
+
+    <section class="cta">
+        <h2>Connect with our wide range of tech</h2>
+        <p>Explore top-notch computers, laptops, accessories, and more!</p>
+        <a href="products.html" class="cta-button">Shop Now</a>
+    </section>
+
     <footer>
-        <p>&copy; 2025 Computer Force</p>
+        <p>© 2025 Computer Force. All rights reserved.</p>
     </footer>
 </body>
 </html>
