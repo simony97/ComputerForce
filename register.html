@@ -1,30 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Register - Computer Force</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Register - Computer Force</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header><h1>Registration Form</h1></header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="register.html">Register</a></li>
-            <li><a href="about.html">About</a></li>
-        </ul>
-    </nav>
-    <form action="#" method="POST">
-        <label>Username*: <input type="text" required></label>
-        <label>Email*: <input type="email" required></label>
-        <label>Password*: <input type="password" required></label>
-        <label>Confirm Password*: <input type="password" required></label>
-        <label>First Name*: <input type="text" required></label>
-        <label>Surname*: <input type="text" required></label>
-        <button type="submit">Register</button>
+  <header>
+    <img src="images/logo.png" alt="Computer Force Logo" class="logo" />
+  </header>
+
+  <nav>
+    <ul class="menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+    <form class="search-form" action="#" method="GET">
+      <input type="text" name="query" placeholder="Search products..." />
+      <button type="submit">Search</button>
     </form>
-    <footer><p>© 2025 Computer Force. All rights reserved. Website by Simony Batista</p></footer>
+  </nav>
+
+  <div class="container">
+    <main>
+      <h1>Registration Form</h1>
+      <p>Please complete the following form to register for an account on our website.</p>
+
+      <form action="#" method="POST">
+        <label for="username">Username*:</label>
+        <input type="text" id="username" name="username" required />
+
+        <label for="email">Email Address*:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="password">Password*:</label>
+        <input type="password" id="password" name="password" required />
+
+        <label for="confirm-password">Confirm Password*:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required />
+
+        <label for="firstname">First Name*:</label>
+        <input type="text" id="firstname" name="firstname" required />
+
+        <label for="surname">Surname*:</label>
+        <input type="text" id="surname" name="surname" required />
+
+        <label>Gender*:</label>
+        <label><input type="radio" name="gender" value="male" required /> Male</label>
+        <label><input type="radio" name="gender" value="female" required /> Female</label>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" />
+
+        <label for="address">Address*:</label>
+        <input type="text" id="address" name="address" required />
+
+        <label for="suburb">Suburb*:</label>
+        <input type="text" id="suburb" name="suburb" required />
+
+        <label for="postcode">Postcode*:</label>
+        <input type="text" id="postcode" name="postcode" required pattern="[0-9]{4}" />
+
+        <label for="state">State*:</label>
+        <select id="state" name="state" required>
+          <option value="">-- Select State --</option>
+          <option value="ACT">ACT</option>
+          <option value="NSW">NSW</option>
+          <option value="NT">NT</option>
+          <option value="QLD">QLD</option>
+          <option value="SA">SA</option>
+          <option value="TAS">TAS</option>
+          <option value="VIC">VIC</option>
+          <option value="WA">WA</option>
+        </select>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" />
+
+        <label for="notes">Notes:</label>
+        <textarea id="notes" name="notes" rows="4"></textarea>
+
+        <div class="form-buttons">
+          <button type="reset">Clear</button>
+          <button type="submit">Register</button>
+        </div>
+      </form>
+    </main>
+
+    <aside>
+      <h2>Purchases</h2>
+      <table>
+        <tr><td>0 items.</td><td>Cart sub-total: $0.</td></tr>
+        <tr><td colspan="2"><button>Go to Checkout</button></td></tr>
+      </table>
+    </aside>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Computer Force. All rights reserved. | Developed by Simony Batista</p>
+  </footer>
 </body>
 </html>
