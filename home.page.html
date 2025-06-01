@@ -8,90 +8,72 @@
 </head>
 <body>
   <header>
-    <div class="top-bar">
-      <h1>Welcome to Computer Force</h1>
-      <form class="search-form" action="#" method="GET">
-        <input type="text" name="query" placeholder="Search products..." />
-        <button type="submit">Search</button>
-      </form>
-      <div class="user-actions">
-        <a href="register.html">Login / Signup</a>
-        <a href="#"><img src="images/cart-icon.png" alt="Cart" class="cart-icon" /></a>
-      </div>
-    </div>
-    <p>Computer Force is your online expert in all things computing.</p>
+    <img src="images/logo.png" alt="Computer Force Logo" class="logo" />
   </header>
 
   <nav>
-    <ul>
+    <ul class="menu">
       <li><a href="index.html">Home</a></li>
       <li><a href="products.html">Products</a></li>
       <li><a href="register.html">Register</a></li>
       <li><a href="about.html">About</a></li>
     </ul>
+    <form class="search-form" action="#" method="GET">
+      <input type="text" name="query" placeholder="Search products..." />
+      <button type="submit">Search</button>
+    </form>
   </nav>
 
-  <main>
-    <section class="product-grid">
-      <div class="product-item">
-        <a href="products.html"><img src="images/computer.jpg" alt="Computers"></a>
-        <h2>Computers</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/laptop.jpg" alt="Laptops"></a>
-        <h2>Laptops</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/monitor.jpg" alt="Monitors"></a>
-        <h2>Monitors</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/printer.jpg" alt="Printers"></a>
-        <h2>Printers</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/software.jpg" alt="Software"></a>
-        <h2>Software</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/tablet.jpg" alt="Tablets"></a>
-        <h2>Tablets</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/accessories.jpg" alt="Accessories"></a>
-        <h2>Accessories</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/router.jpg" alt="Routers"></a>
-        <h2>Routers</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/headphones.jpg" alt="Headphones"></a>
-        <h2>Headphones</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/speakers.jpg" alt="Speakers"></a>
-        <h2>Speakers</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/keyboard.jpg" alt="Keyboards"></a>
-        <h2>Keyboards</h2>
-      </div>
-      <div class="product-item">
-        <a href="products.html"><img src="images/mouse.jpg" alt="Mouse"></a>
-        <h2>Mouse</h2>
-      </div>
-    </section>
-  </main>
+  <div class="container">
+    <main>
+      <h1>Welcome to Computer Force</h1>
+      <p>Computer Force is your online expert in all things computing.</p>
 
-  <section class="cta">
-    <h2>Connect with our wide range of tech</h2>
-    <p>Explore top-notch computers, laptops, accessories, and more!</p>
-    <a href="products.html" class="cta-button">Shop Now</a>
-  </section>
+      <!-- Product Sections -->
+      <section class="products-home">
+        <h2>Computers</h2>
+        <a href="products.html#computers">
+          <img src="images/computers.jpg" alt="Computers" class="product-img" />
+        </a>
+
+        <h2>Laptops</h2>
+        <a href="products.html#laptops">
+          <img src="images/laptops.jpg" alt="Laptops" class="product-img" />
+        </a>
+
+        <h2>Monitors</h2>
+        <a href="products.html#monitors">
+          <img src="images/monitors.jpg" alt="Monitors" class="product-img" />
+        </a>
+
+        <h2>Printing & Scanning</h2>
+        <a href="products.html#printing">
+          <img src="images/printing.jpg" alt="Printing and Scanning" class="product-img" />
+        </a>
+
+        <h2>Software</h2>
+        <a href="products.html#software">
+          <img src="images/software.jpg" alt="Software" class="product-img" />
+        </a>
+
+        <h2>Tablets</h2>
+        <a href="products.html#tablets">
+          <img src="images/tablets.jpg" alt="Tablets" class="product-img" />
+        </a>
+      </section>
+    </main>
+
+    <aside>
+      <h2>Purchases</h2>
+      <table>
+        <tr><td>0 items.</td><td>Cart sub-total: $0.</td></tr>
+        <tr><td colspan="2"><button>Go to Checkout</button></td></tr>
+      </table>
+    </aside>
+  </div>
 
   <footer>
-    <p>© 2025 Computer Force. All rights reserved. | Website by Simony Batista</p>
+    <p>&copy; 2025 Computer Force. All rights reserved. | Developed by Simony Batista</p>
   </footer>
 </body>
 </html>
